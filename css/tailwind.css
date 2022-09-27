@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .linnk {
+        color: #06c;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .navlink {
+        font-size: 12px;
+        letter-spacing: -.01em;
+        line-height: 1.23536;
+    }
+
+    .ital {
+        font-style: italic;
+    }
+
+    .bbpo {
+        font-size: 12px;
+        line-height: 1.33337;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        flex-wrap: nowrap;
+        padding-top: 20px;
+        color:gray;
+    }
+    .theP{
+        font-size: 1em;
+    }
+}
